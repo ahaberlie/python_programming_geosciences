@@ -1,0 +1,15 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 4ac44c75-a77f-4e32-8a09-2f3f66b68eae
+  # title:
+  # description:
+  # keywords: []
+  # authors: []
+  github: https://github.com/ahaberlie/python_programming_geosciences
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
