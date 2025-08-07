@@ -2,11 +2,12 @@
 version: 1
 project:
   id: 4ac44c75-a77f-4e32-8a09-2f3f66b68eae
-  # title:
-  # description:
-  # keywords: []
-  # authors: []
+  title: Computer Programming for the Geosciences
+  description: An open textbook to support EAE 493 at NIU
+  keywords: [python, geosciences, programming]
+  authors: [Alex Haberlie]
   github: https://github.com/ahaberlie/python_programming_geosciences
+  jupyter: true
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
 site:
   template: book-theme
