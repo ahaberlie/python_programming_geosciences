@@ -36,3 +36,8 @@ Created a worked notebook for each of [Homework 1–5 and Exercise 1–14](answe
 - Validated all 19 answer notebooks and ran their 150 Python cells. EX10, EX11, and EX13 each scored 5/5, and HW5 scored 10/10. Checked all four of HW1's published cases and the seasonal and time-of-day totals in HW5.
 - Confirmed the replacement radar PNG, both NAIP GeoTIFFs, and the January PRISM archive. Some external sites rate-limited or blocked automated requests. Exam 1 still requires its original CSV. Advanced labs and chapters were checked for links and assets rather than executed end to end.
 - All changes and verification outputs were created locally.
+
+## Preview deployment follow-up
+
+- The preview deployment reached the HTML renderer. Its Node.js 18 runtime rejected the renderer's `--env-file` flag. Updated the Pages workflow to Node.js 24 and verified a 72-page local HTML build with the preview repository's base path. [Node.js CLI reference](https://nodejs.org/api/cli.html#--env-fileconfig)
+- Fixed the blank netCDF link in Lab 4 and the empty AWS link text in Chapter 3.3, both flagged in the preview build log.
