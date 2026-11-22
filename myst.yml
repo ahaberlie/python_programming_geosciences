@@ -10,8 +10,57 @@ project:
   jupyter: true
   exclude:
     - FIXLOG.md
-    - 'answer_keys/**'
-  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+  toc:
+    - file: chapters/chapter_1_Running_Python_programs/1_0_welcome.ipynb
+    - title: Chapters
+      children:
+        - title: Chapter 1 Running Python Programs
+          children:
+            - pattern: 'chapters/chapter_1_Running_Python_programs/*.ipynb'
+        - title: Chapter 2 Data Types
+          children:
+            - pattern: 'chapters/chapter_2_data_types/*.ipynb'
+        - title: Chapter 3 Flow Control
+          children:
+            - pattern: 'chapters/chapter_3_flow_control/*.ipynb'
+        - title: Chapter 4 Numpy
+          children:
+            - pattern: 'chapters/chapter_4_numpy/*.ipynb'
+        - title: Chapter 5 Matplotlib
+          children:
+            - pattern: 'chapters/chapter_5_matplotlib/*.ipynb'
+        - title: Chapter 6 Pandas
+          children:
+            - pattern: 'chapters/chapter_6_pandas/*.ipynb'
+        - title: Chapter 7 Geospatial Analysis
+          children:
+            - pattern: 'chapters/chapter_7_geospatial_analysis/*.ipynb'
+        - title: Chapter 8 Machine Learning Tabular
+          children:
+            - pattern: 'chapters/chapter_8_machine_learning_tabular/*.ipynb'
+        - title: Chapter 9 Machine Learning Images
+          children:
+            - pattern: 'chapters/chapter_9_machine_learning_images/*.ipynb'
+    - title: Exams
+      children:
+        - pattern: 'exams/*.ipynb'
+    - title: Exercises
+      children:
+        - pattern: 'exercises/*.ipynb'
+    - title: Homework
+      children:
+        - pattern: 'homework/*.ipynb'
+    - title: Labs
+      children:
+        - pattern: 'labs/*.ipynb'
+    - file: answer_keys/answer-keys.md
+      children:
+        - title: Homework
+          children:
+            - pattern: 'answer_keys/Homework_*_Answer_Key.ipynb'
+        - title: Exercises
+          children:
+            - pattern: 'answer_keys/EX*_Answer_Key.ipynb'
 site:
   template: book-theme
   # options:

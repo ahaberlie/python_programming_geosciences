@@ -28,11 +28,11 @@ Reviewed the 72 tracked course notebooks and the 72 public course pages, includi
 
 ## Answer keys
 
-Created a worked notebook for each of [Homework 1–5 and Exercise 1–14](answer_keys/README.md). The keys include sample Markdown responses, code for each computational task, and 13 generated plots across the plotting assignments. The keys are excluded from both Git tracking and the MyST build.
+Created a worked notebook for each of [Homework 1–5 and Exercise 1–14](answer_keys/answer-keys.md). The keys include sample Markdown responses, code for each computational task, and 13 generated plots across the plotting assignments. The Jupyter Book sidebar now includes an **Answer Keys** section with an overview and separate homework and exercise groups. The notebooks are available for Git tracking and are included in the website build.
 
 ## Verification and limits
 
-- Built the local HTML with the GitHub Pages base path and checked all generated course pages for internal link targets, fragments, and image files. The build contained no missing internal targets or answer-key exports.
+- Built the local HTML with the GitHub Pages base path and checked all generated course pages for internal link targets, fragments, and image files.
 - Validated all 19 answer notebooks and ran their 150 Python cells. EX10, EX11, and EX13 each scored 5/5, and HW5 scored 10/10. Checked all four of HW1's published cases and the seasonal and time-of-day totals in HW5.
 - Confirmed the replacement radar PNG, both NAIP GeoTIFFs, and the January PRISM archive. Some external sites rate-limited or blocked automated requests. Exam 1 still requires its original CSV. Advanced labs and chapters were checked for links and assets rather than executed end to end.
 - All changes and verification outputs were created locally.
