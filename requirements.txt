@@ -2,7 +2,8 @@
 altair
 matplotlib
 numpy
+pandas
 vega_datasets
 
-# To interactively browser Jupyter content with MyST
+# To interactively browse Jupyter content with MyST
 jupyterlab_myst

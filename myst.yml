@@ -8,6 +8,9 @@ project:
   authors: [Alex Haberlie]
   github: https://github.com/ahaberlie/python_programming_geosciences
   jupyter: true
+  exclude:
+    - FIXLOG.md
+    - 'answer_keys/**'
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
 site:
   template: book-theme
